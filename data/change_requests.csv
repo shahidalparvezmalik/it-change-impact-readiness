@@ -1,0 +1,7 @@
+change_id,title,service_id,planned_start_utc,planned_end_utc,owner,implementation_plan,test_evidence,rollback_plan,approver
+CHG-001,Payments database maintenance,svc-payments,2026-12-12T22:00:00Z,2026-12-12T23:00:00Z,Operations A,Apply reviewed database maintenance,Pre-change validation checklist,Restore prior database snapshot,Service owner A
+CHG-002,Customer portal gateway update,svc-portal,2026-12-12T22:30:00Z,2026-12-12T23:30:00Z,Network Operations,Update gateway configuration,Staging test record,Reapply prior gateway configuration,Service owner B
+CHG-003,Identity service certificate rotation,svc-identity,2026-12-12T23:00:00Z,2026-12-12T23:20:00Z,Platform Operations,Rotate test certificate,Validation checklist,Restore previous certificate,Service owner C
+CHG-004,Finance reporting service update,svc-finance,2026-12-14T02:00:00Z,2026-12-14T03:00:00Z,Operations D,Deploy reporting update,,,,
+CHG-005,Mail routing configuration review,svc-mail,2026-12-15T22:00:00Z,2026-12-15T22:45:00Z,Messaging Operations,Update routing configuration,Pre-production test,Restore previous route,Service owner E
+CHG-006,Payroll application routine maintenance,svc-payroll,2026-12-16T01:00:00Z,2026-12-16T02:00:00Z,Operations F,Apply routine maintenance,Application smoke test,Restore previous version,Service owner F

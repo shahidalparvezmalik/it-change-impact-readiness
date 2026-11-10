@@ -1,0 +1,10 @@
+service_id,dependency_id,dependency_name,verification_status
+svc-payments,dep-core-network,Core network,confirmed
+svc-payments,dep-payment-database,Payment database cluster,confirmed
+svc-portal,dep-core-network,Core network,confirmed
+svc-portal,dep-identity,Identity platform,confirmed
+svc-identity,dep-identity,Identity platform,confirmed
+svc-identity,dep-core-network,Core network,confirmed
+svc-finance,dep-finance-database,Finance database,confirmed
+svc-mail,dep-mail-relay,Mail relay,unconfirmed
+svc-payroll,dep-payroll-app,Payroll application platform,confirmed

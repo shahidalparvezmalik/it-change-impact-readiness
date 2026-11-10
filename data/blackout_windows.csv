@@ -1,0 +1,3 @@
+scope_type,scope_id,start_utc,end_utc,reason
+dependency,dep-core-network,2026-12-12T22:00:00Z,2026-12-12T23:00:00Z,Planned core network freeze
+service,svc-finance,2026-12-14T02:30:00Z,2026-12-14T03:00:00Z,Finance service maintenance blackout
