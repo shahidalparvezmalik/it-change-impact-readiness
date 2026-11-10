@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">IT Change Impact and Readiness Review</title>
+  <desc id="desc">A synthetic change-management review concept showing two proposed changes connected through a shared service dependency, with schedule overlap and evidence checks routed to human review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071522"/>
+      <stop offset="1" stop-color="#10283a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#31c5c9"/>
+      <stop offset="1" stop-color="#67e0bc"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#a7c9db" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#020b12" flood-opacity=".38"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <circle cx="1680" cy="95" r="300" fill="#1a6470" opacity=".12"/>
+  <circle cx="130" cy="1000" r="340" fill="#14516a" opacity=".10"/>
+
+  <rect x="120" y="120" width="10" height="840" rx="5" fill="url(#accent)"/>
+  <text x="178" y="205" fill="#76e2d0" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">OPERATIONS GOVERNANCE · PROJECT 10</text>
+  <text x="178" y="340" fill="#f4f8fb" font-family="Inter,Arial,sans-serif" font-size="62" font-weight="700">IT Change Impact</text>
+  <text x="178" y="430" fill="#f4f8fb" font-family="Inter,Arial,sans-serif" font-size="56" font-weight="700">&amp; Readiness Review</text>
+  <rect x="180" y="485" width="560" height="4" rx="2" fill="url(#accent)"/>
+  <text x="180" y="565" fill="#bbced9" font-family="Inter,Arial,sans-serif" font-size="24">Evidence completeness · dependency-aware windows</text>
+  <text x="180" y="612" fill="#bbced9" font-family="Inter,Arial,sans-serif" font-size="24">Blackout checks · human review only</text>
+
+  <rect x="180" y="715" width="485" height="82" rx="18" fill="#0d2332" stroke="#2e5366" stroke-width="2"/>
+  <circle cx="224" cy="756" r="12" fill="#55d5c1"/>
+  <text x="256" y="767" fill="#e7f1f5" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="600">Synthetic data · deterministic rules</text>
+  <text x="180" y="870" fill="#89a9b9" font-family="Inter,Arial,sans-serif" font-size="17" letter-spacing="1">NO LIVE SYSTEMS · NO APPROVALS · NO DEPLOYMENTS</text>
+
+  <g filter="url(#shadow)">
+    <rect x="850" y="145" width="940" height="790" rx="30" fill="#102536" stroke="#355568" stroke-width="2"/>
+  </g>
+  <text x="910" y="214" fill="#a8c3d0" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="3">A TRANSPARENT REVIEW PATH</text>
+
+  <rect x="910" y="270" width="330" height="168" rx="20" fill="#173649" stroke="#4b7a8f" stroke-width="2"/>
+  <text x="948" y="319" fill="#77dfce" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2">PROPOSED CHANGE A</text>
+  <text x="948" y="367" fill="#f3f7fa" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="600">Payments update</text>
+  <text x="948" y="407" fill="#a9c2ce" font-family="Inter,Arial,sans-serif" font-size="18">Window + review evidence</text>
+
+  <rect x="1400" y="270" width="330" height="168" rx="20" fill="#173649" stroke="#4b7a8f" stroke-width="2"/>
+  <text x="1438" y="319" fill="#77dfce" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2">PROPOSED CHANGE B</text>
+  <text x="1438" y="367" fill="#f3f7fa" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="600">Portal gateway update</text>
+  <text x="1438" y="407" fill="#a9c2ce" font-family="Inter,Arial,sans-serif" font-size="18">Window + review evidence</text>
+
+  <path d="M1075 438V505H1320M1565 438V505H1320" fill="none" stroke="#58d3c3" stroke-width="4"/>
+  <circle cx="1320" cy="505" r="8" fill="#67e0bc"/>
+  <rect x="1160" y="522" width="320" height="105" rx="18" fill="#173f50" stroke="#56c9be" stroke-width="2"/>
+  <text x="1202" y="565" fill="#77dfce" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.3">SHARED DEPENDENCY</text>
+  <text x="1202" y="603" fill="#f3f7fa" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="600">Core network</text>
+
+  <text x="930" y="690" fill="#a8c3d0" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2">SCHEDULE COLLISION CHECK</text>
+  <text x="930" y="741" fill="#dce8ed" font-family="Inter,Arial,sans-serif" font-size="20">22:00</text>
+  <text x="1664" y="741" fill="#dce8ed" font-family="Inter,Arial,sans-serif" font-size="20">23:30</text>
+  <line x1="1010" y1="733" x2="1670" y2="733" stroke="#486375" stroke-width="3"/>
+  <rect x="1115" y="710" width="310" height="29" rx="14" fill="#42b9b1"/>
+  <rect x="1280" y="753" width="300" height="29" rx="14" fill="#f0aa61"/>
+  <text x="930" y="782" fill="#80a0ae" font-family="Inter,Arial,sans-serif" font-size="18">CHANGE A</text>
+  <text x="930" y="824" fill="#80a0ae" font-family="Inter,Arial,sans-serif" font-size="18">CHANGE B</text>
+
+  <rect x="1055" y="858" width="530" height="48" rx="24" fill="#244b58" stroke="#4e978f" stroke-width="1.5"/>
+  <text x="1320" y="890" text-anchor="middle" fill="#d9f4ef" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="0.5">FLAG FOR HUMAN REVIEW · NO AUTO-APPROVAL</text>
+</svg>
