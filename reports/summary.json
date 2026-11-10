@@ -1,0 +1,12 @@
+{
+  "change_count": 6,
+  "changes_with_flags": 5,
+  "flag_counts": {
+    "BLACKOUT_WINDOW_CONFLICT": 3,
+    "MISSING_REQUIRED_EVIDENCE": 1,
+    "OVERLAPPING_CHANGE_WINDOW": 3,
+    "SERVICE_DEPENDENCIES_UNMAPPED": 1,
+    "UNCONFIRMED_DEPENDENCY": 1
+  },
+  "review_status": "HUMAN_REVIEW_ONLY"
+}

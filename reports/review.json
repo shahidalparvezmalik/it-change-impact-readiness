@@ -1,0 +1,96 @@
+[
+  {
+    "change_id": "CHG-001",
+    "flags": [
+      "BLACKOUT_WINDOW_CONFLICT",
+      "OVERLAPPING_CHANGE_WINDOW"
+    ],
+    "reasons": [
+      "Overlapping planned window with CHG-002 on shared dependency dep-core-network.",
+      "Planned window intersects blackout: Planned core network freeze (dependency dep-core-network)."
+    ],
+    "related_changes": [
+      "CHG-002"
+    ],
+    "review_status": "HUMAN_REVIEW",
+    "service_id": "svc-payments",
+    "title": "Payments database maintenance"
+  },
+  {
+    "change_id": "CHG-002",
+    "flags": [
+      "BLACKOUT_WINDOW_CONFLICT",
+      "OVERLAPPING_CHANGE_WINDOW"
+    ],
+    "reasons": [
+      "Overlapping planned window with CHG-001 on shared dependency dep-core-network.",
+      "Overlapping planned window with CHG-003 on shared dependency dep-core-network, dep-identity.",
+      "Planned window intersects blackout: Planned core network freeze (dependency dep-core-network)."
+    ],
+    "related_changes": [
+      "CHG-001",
+      "CHG-003"
+    ],
+    "review_status": "HUMAN_REVIEW",
+    "service_id": "svc-portal",
+    "title": "Customer portal gateway update"
+  },
+  {
+    "change_id": "CHG-003",
+    "flags": [
+      "OVERLAPPING_CHANGE_WINDOW"
+    ],
+    "reasons": [
+      "Overlapping planned window with CHG-002 on shared dependency dep-core-network, dep-identity."
+    ],
+    "related_changes": [
+      "CHG-002"
+    ],
+    "review_status": "HUMAN_REVIEW",
+    "service_id": "svc-identity",
+    "title": "Identity service certificate rotation"
+  },
+  {
+    "change_id": "CHG-004",
+    "flags": [
+      "BLACKOUT_WINDOW_CONFLICT",
+      "MISSING_REQUIRED_EVIDENCE"
+    ],
+    "reasons": [
+      "Missing required evidence: approver.",
+      "Missing required evidence: rollback_plan.",
+      "Missing required evidence: test_evidence.",
+      "Planned window intersects blackout: Finance service maintenance blackout (service svc-finance)."
+    ],
+    "related_changes": [],
+    "review_status": "HUMAN_REVIEW",
+    "service_id": "svc-finance",
+    "title": "Finance reporting service update"
+  },
+  {
+    "change_id": "CHG-005",
+    "flags": [
+      "SERVICE_DEPENDENCIES_UNMAPPED",
+      "UNCONFIRMED_DEPENDENCY"
+    ],
+    "reasons": [
+      "At least one dependency record for this service is not confirmed.",
+      "No confirmed dependency mapping is available for this service."
+    ],
+    "related_changes": [],
+    "review_status": "HUMAN_REVIEW",
+    "service_id": "svc-mail",
+    "title": "Mail routing configuration review"
+  },
+  {
+    "change_id": "CHG-006",
+    "flags": [],
+    "reasons": [
+      "No overlap flag; human review is still required."
+    ],
+    "related_changes": [],
+    "review_status": "HUMAN_REVIEW",
+    "service_id": "svc-payroll",
+    "title": "Payroll application routine maintenance"
+  }
+]

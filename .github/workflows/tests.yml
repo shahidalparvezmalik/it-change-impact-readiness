@@ -1,0 +1,23 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run unit tests
+        run: python -m unittest discover -v
+      - name: Run synthetic demo
+        run: >-
+          python -m change_readiness.cli
+          --changes data/change_requests.csv
+          --dependencies data/service_dependencies.csv
+          --blackouts data/blackout_windows.csv
+          --output-dir reports
